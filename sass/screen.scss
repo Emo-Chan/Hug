@@ -1,0 +1,71 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "fonts.scss";
+
+body{
+	background-color: #ffffff;
+	font-family: 'bonvenocflight';
+	margin-left: auto;
+	margin-right: auto;
+	#pictures{
+		margin-top:10px;		
+		padding-bottom:30px;
+		#pictures_title{
+			padding-bottom: 25px; 
+			padding-top: 25px;
+			margin-left: 20px;
+			margin-right: 20px;
+			text-align:center;
+			text-decoration: none;
+			border: 2px solid #336699;;
+			color: #336699;
+			font-size: 2em;
+			letter-spacing: 3px;
+			text-transform:uppercase;
+			margin-bottom: 50px
+		}
+		#imageslist{
+			text-align:center;
+
+			.image{
+				display:inline-block;
+				margin: 0px;  
+				height: 230px;
+				width: 230px;
+				border: 1px solid red;
+				position: relative;
+				border:2px solid #FFFFFF;
+				.color {
+					max-height: 230px;  
+					max-width: 230px;  
+					position: absolute;  
+					top: 0;  
+					bottom: 0;  
+					left: 0;  
+					right: 0;  
+					margin: auto;
+  		        }
+			}
+		}
+	}
+	#div_button {
+	    text-align:center;
+		button{
+			letter-spacing: 10px;
+			text-transform:uppercase;
+			border: 2px solid #336699;;
+			color: #336699;
+			font-size: 1.3em;
+		}
+	}
+}
+
+
+
+
+
+
+
